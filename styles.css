@@ -1,2 +1,17 @@
-* {
+.container {
+  width: 300px;
+  margin: 0 auto;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content {
+  line-height: 2em;
+}
+
+.view-more-container {
+  /* margin-top: 2px; */
+  bottom: 0;
+  position: absolute;
 }
